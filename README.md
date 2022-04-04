@@ -20,8 +20,14 @@ For the design specifications for the MechaCar suspension coils, they can not be
 ![deliverable3.png](https://github.com/mackalys/MechaCar_Statistical_Analysis/blob/main/resources/images/deliverable3.png)
 For the first t-test, it shows all the suspension coils from all the lots. This test indicates that there was not much of a difference across all the lots because the mean is shown to be 1498.78, which is very close to the mean population of 1500. The p-value for this test is 0.06028 meaning the null hypothesis cannot be rejected because it is not less than 0.05.
 
-For the second t-test, it shows the suspension coils just from Lot 1. There is no difference in the mean since it is exactly 1500, but the p-value is very high at 1. This again means we have to reject the null hypothesis since it is too high.
+For the second t-test, it shows the suspension coils just from Lot 1. There is no difference in the mean since it is exactly 1500, but the p-value is very high at 1. This again means we have to reject the null hypothesis since it is too high. 
 
 For the third t-test, it shows the suspension coils for just Lot 2. There is no significant difference in the mean sice it is 1500.2. Although, the p-value is still too high to rehect the null hypothesis since it is at 0.6072.
 
 For the fourth t-test, it shows the suspension coil for just Lot 3. Keeping in mind the previous analysis we had done on Lot 3, we saw that the suspension coil was far over the accepted amount at 170 PSI. This t-test shows the mean is slightly lower than the population mean at 1496.14 and the p-value is low at 0.04168. The p-value indicates that we can reject the null hypothesis, but due to the previous anlysis, this data may not be reliable.
+
+## Study Design: MechaCar vs Competition
+### Deliverable 4
+For this study, we are going to look at the traction control of the prototype. Traction control is controlled by a system that limits how the wheel spins when the car is accelerating. This way, the driver has more control over the car when increasing their speed and do not lose control of the car at higher sppeds. 
+The null hypothesis is the MechaCar prototype would score similar or as well as the safest cars on the road. The alternative hypothesis is the MechaCar would score poorer than the safest cars on the road.
+Like done for the suspension coil, a one sample t-test will be ran so we can not only compare the p-value, but the mean of the overall population as well. We will need to the traction control scores from the differnt lots on different weather types as well as road types (i.e. snowy pavement, muddy trail, icy concrete).
